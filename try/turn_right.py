@@ -26,14 +26,9 @@ def tourner():
     pwm.set_pwm_freq(60)
 
     print('Moving servo on channel 0, press Ctrl-C to quit...')
-    while True:
         # Move servo on channel O between extremes.
         pwm.set_pwm(0, 0, servo)
-        time.sleep(0.5)
-        servo-=20
-        print(servo)
-        if servo <= 300:
-            servo = 600
+        servo= 600
         # 475 tout droit
 
     # Reinitialisation des parametres GPIOs

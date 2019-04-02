@@ -1,4 +1,4 @@
-rom __future__ import division
+from __future__ import division
 import time
 
 # Import the PCA9685 module.
